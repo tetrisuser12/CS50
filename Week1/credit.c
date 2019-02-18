@@ -30,9 +30,7 @@ int main(void)
         digits++;
     }
     total = sumodd + sumeven;
-    /*
-    printf("sumodd: %i; sumeven2: %i; total:%i; digits: %i\n", sumodd, sumeven, total, digits); 
-    */
+    // printf("sumodd: %i; sumeven2: %i; total:%i; digits: %i\n", sumodd, sumeven, total, digits); 
     if (total % 10 == 0) {
         if(digits == 15) {
             if(ccnum / 10000000000000 == 34 || ccnum / 10000000000000 == 37) {
