@@ -3,11 +3,11 @@
 
 int main(void)
 {
-    int odd, even2, evenx, sumodd = 0, sumeven = 0, total, digits=0;
+    int odd, even2, evenx, sumodd = 0, sumeven = 0, total, digits = 0;
     long ccnum, credit;
     do {
         ccnum = get_long("Number: ");
-    } while (ccnum< 0);
+    } while (ccnum < 0);
     credit = ccnum;
     while (credit != 0) {
         odd = credit % 10;
